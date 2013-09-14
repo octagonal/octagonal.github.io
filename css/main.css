@@ -58,35 +58,37 @@ ul.posts span {
 .site {
   font-size: 115%;
   text-align: justify;
-  width: 42em;
+  width: 80%;
   margin: 3em auto 2em;
   line-height: 1.5em;
 }
 
-.site .header a {
+.site nav a {
   font-weight: bold;
   text-decoration: none;
 }
 
-.site .header h1.title {
+.site nav h1.title {
   display: inline-block;
-  margin-bottom: 2em;
+  margin-bottom: 0.2em;
+  margin-top: 0.2em;
+  font-size: 6em;
 }
 
-.site .header h1.title a {
+.site nav h1.title a {
   color: #a00;
 }
 
-.site .header h1.title a:hover {
+.sitenav h1.title a:hover {
   color: #000;
 }
 
-.site .header a.extra {
+.site nav a.extra {
   color: #aaa;
   margin-left: 1em;
 }
 
-.site .header a.extra:hover {
+.site nav a.extra:hover {
   color: #000;
 }
 
@@ -119,6 +121,10 @@ ul.posts span {
 
 .site .footer .rss img {
   border: 0;
+}
+
+#home .posts a {
+  text-decoration:none;
 }
 
 /*****************************************************************************/
