@@ -4,6 +4,15 @@
    HTML5 display definitions
    ========================================================================== */
 
+.group:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+
 /**
  * Correct `block` display not defined in IE 8/9.
  */

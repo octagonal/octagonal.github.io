@@ -127,6 +127,25 @@ ul.posts span {
   text-decoration:none;
 }
 
+#home .posts li {
+  padding:10px;
+  float:left;
+  width: 50%;
+  display: inline-block;
+}
+
+#home .posts div.excerpt p:nth-child(2):after {
+  content: " […]";
+}
+
+#home .posts li:nth-child(4n+1) {
+  background-color: rgba(238, 238, 238, 0.14);
+}
+
+#home .posts li:nth-child(4n) {
+background-color: rgba(238, 238, 238, 0.14);
+}
+
 /*****************************************************************************/
 /*
 /* Posts
