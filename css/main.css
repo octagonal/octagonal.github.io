@@ -145,6 +145,7 @@ ul.posts span {
 
 #home .posts li > a{
   padding:10px;
+  color:black;
 }
 #home .posts li > a:hover {
   border-bottom: 1px solid rgba(170, 0, 0, 0.74);
