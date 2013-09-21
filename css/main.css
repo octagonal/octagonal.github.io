@@ -43,6 +43,14 @@ ul.posts li {
   line-height: 1.75em;
 }
 
+ul.posts li a {
+  display:inline-block;
+}
+
+ul.posts li a:visited {
+  color:black;
+}
+
 ul.posts span {
   color: #aaa;
   font-family: Monaco, "Courier New", monospace;
@@ -128,10 +136,19 @@ ul.posts span {
 }
 
 #home .posts li {
-  padding:10px;
+  padding:0px;
   float:left;
+  margin-top:1px;
   width: 50%;
   display: inline-block;
+}
+
+#home .posts li > a{
+  padding:10px;
+}
+#home .posts li > a:hover {
+  border-bottom: 1px solid rgba(170, 0, 0, 0.74);
+  padding-bottom: 9px;
 }
 
 #home .posts div.excerpt p:nth-child(2):after {
@@ -139,11 +156,11 @@ ul.posts span {
 }
 
 #home .posts li:nth-child(4n+1) {
-  background-color: rgba(238, 238, 238, 0.14);
+  background-color: rgba(238, 238, 238, 0.5);
 }
 
 #home .posts li:nth-child(4n) {
-background-color: rgba(238, 238, 238, 0.14);
+background-color: rgba(238, 238, 238, 0.5);
 }
 
 /*****************************************************************************/
